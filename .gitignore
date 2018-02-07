@@ -10,3 +10,22 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+# Git mergetool
+*.orig
+
+# Gradle files
+.gradle
+**/build/
+classes/
+.gradletasknamecache
+
+# IntelliJ files
+*.iml
+**/.idea/
+/out
+
+# Eclipse
+.project
+.classpath
+.settings/
